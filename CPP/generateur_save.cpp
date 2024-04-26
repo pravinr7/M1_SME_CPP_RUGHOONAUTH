@@ -10,7 +10,7 @@
 #define etat5 5
 #define etat6 6  
 
-// definition des transitions 
+// definition des transitions selon la machine à état vu en tD
 
 #define T0_1 tension() ==9
 #define T1_2 tension() ==6
@@ -96,7 +96,7 @@ switch(etat)
 			}
 			break;
 	
-	//voiture en charge
+	//voiture chargee
 	case etat4:
 			break;
 
