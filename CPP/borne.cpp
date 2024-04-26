@@ -16,7 +16,7 @@ void afficherMenu() {
 int main()
 {
     LecteurCarte lc;
-    lc.initialiser();
+    lc.initialiser(); // initialisation lecteur carte
     BaseClient bc; // Création d'un objet BaseClient
     
     while(1)
